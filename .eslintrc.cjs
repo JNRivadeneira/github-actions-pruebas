@@ -22,5 +22,13 @@ module.exports = {
   ],
   parserOptions: {
     ecmaVersion: 'latest'
+  },
+  rules: {
+    'no-console': 'off',
+    'no-debugger': 'off',
+    'no-unused-vars': 'error',
+    'no-undef': 'off',
+    'no-constant-condition': 'off',
+    'no-empty': 'off',
   }
 }
