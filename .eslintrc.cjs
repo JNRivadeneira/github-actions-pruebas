@@ -24,7 +24,7 @@ module.exports = {
     ecmaVersion: 'latest'
   },
   rules: {
-    'no-console': 'off',
+    'no-console': 'warn;',
     'no-debugger': 'off',
     'no-unused-vars': 'error',
     'no-undef': 'off',
