@@ -2,6 +2,7 @@
 defineProps<{
   msg: string
 }>()
+var count = ref(0)
 </script>
 
 <template>
@@ -12,6 +13,9 @@ defineProps<{
       <a href="https://vitejs.dev/" target="_blank" rel="noopener">Vite</a> +
       <a href="https://vuejs.org/" target="_blank" rel="noopener">Vue 3</a>. What's next?
     </h3>
+    <h4 class="zocalo"
+      style="border: 2px; background-color: aqua; color: bisque; font-size: large; border-radius: 4px;">Esto es un
+      zocalo horriblemente feo! 👻 </h4>
   </div>
 </template>
 
@@ -33,6 +37,7 @@ h3 {
 }
 
 @media (min-width: 1024px) {
+
   .greetings h1,
   .greetings h3 {
     text-align: left;
